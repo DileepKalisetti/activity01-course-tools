@@ -34,5 +34,44 @@ I also encourage you to use comments (`#`) to help you identify each item (I pro
 ```{r simple-calculations}
 # Item 1
 
+x <- 2
+y <- 5
+z <- (x + y)
+cat("Item 1 Solution:", z,"\n")
+
+# Item 2
+
+int_vect <- 1:9
+cat("Item 2 Solution:", int_vect, "\n")
+
+# Item 3
+
+char_vect <- LETTERS[1:17]
+cat("Item 3 Solution:", char_vect, "\n")
+
+# Item 4
+
+after_D_letters <- sum(char_vect > "D")
+cat("Item 4 Solution:", after_D_letters, "\n")
+  
+
 ```
+
+# Item 5 :Provides a descriptive comment for each of the above tasks.
+
+Solution: 
+
+Item 1 Comment: The item is to add two values 2 and 5, I have assigned these numbers to x and y variables and z variable is a summation of x and y variables and the output is 7 for the Z variable.
+
+Item 2 Comment: `int_vect` variable is assigned with values with "1:9" and it print the values from 1 to 9.
+
+Item 3 Comment: `char_vect` variable is assigned with "LETTERS[1:17]" and it prints the letters "A" (the first letter of the alphabet) through "Q" (the 17th letter of the alphabet). 
+
+Item 4 Comment: A variable after_D_letters is created that as the sum(count) of all the letter greater than the index of Letter "D" is captured. and the output printed is 13.
+
+
+
+
+
+
 
